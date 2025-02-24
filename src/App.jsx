@@ -2,10 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/github-cat-png.png'
 import viteLogo from './assets/LinkedIn.png'
 import './App.css'
+import PullDogInfo from './components/PullDogInfo.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
@@ -16,10 +15,8 @@ function App() {
           <img src={reactLogo} className="logo react" alt="GitHub logo" />
         </a>
       </div>
-      <h1>Click the Icons!</h1>
-      <p>
-          full page coming soon!
-        </p>
+      <h1>Click the Icons Above!</h1>
+      <PullDogInfo />
     </>
   )
 }
